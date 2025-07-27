@@ -12,6 +12,7 @@ export default function Home() {
           className="aspect-square"
         />
       </div>
+
       <div className="m-2 flex-1 font-mono antialiased">
         <h1 className="text-4xl lg:text-6xl font-semibold m-4 bg-blue-500 p-1">
           Hello!
@@ -22,6 +23,13 @@ export default function Home() {
           also sing and write music in my free time. My other interests include
           volleyball, snowboarding, mechanical keyboards, and Pokémon.
         </p>
+        <div className="m-4 p-2 antialiased">
+          <p className="m-2">Check out some of my unreleased music!</p>
+          <audio controls className="w-full max-w-md">
+            <source src="/withyou.wav" type="audio/wav" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
       </div>
     </div>
   );
