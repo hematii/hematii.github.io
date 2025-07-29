@@ -22,6 +22,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="absolute w-full bg-zinc-900 font-mono text-3xl flex flex-row justify-center py-2">
+          piss
+        </div>
         {children}
       </body>
     </html>
