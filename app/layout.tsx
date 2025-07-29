@@ -41,6 +41,12 @@ export default function RootLayout({
           >
             my music
           </a>
+          <a
+            href="/projects"
+            className="w-1/8 text-center border-b-4 border-transparent py-2 hover:border-[#ffa74a] transition-colors duration-150 ease-out"
+          >
+            projects
+          </a>
           {/* <nav>
             <Link href="/" className="mx-10 w-1/6">
               yippee
