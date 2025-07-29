@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="fixed top-0 z-1 w-full bg-zinc-950 font-mono text-3xl flex flex-row justify-center">
+        <div className="hidden lg:fixed lg:top-0 z-1 w-full bg-zinc-950 font-mono text-3xl lg:flex flex-row justify-center">
           <a
             href="/"
             className="w-1/8 text-center border-b-4 border-transparent py-2 hover:border-[#ffa74a] transition-colors duration-150 ease-out"
