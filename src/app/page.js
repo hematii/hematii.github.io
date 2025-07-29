@@ -7,7 +7,7 @@ export default function Home() {
         {/* Image */}
         <div className="flex w-4/5 lg:w-2/5">
           <Image
-            src="/nextjs-github-pages/bigjimage.png"
+            src="/bigjimage.png"
             alt="incredible self portrait"
             width={1600}
             height={1600}
