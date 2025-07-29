@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function music() {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center font-mono text-2xl">
