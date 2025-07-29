@@ -28,9 +28,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="fixed top-0 z-1 w-full bg-zinc-900 font-mono text-3xl flex flex-row justify-center py-2 gap-10">
-          <p>piss</p>
-          <p>yippee</p>
+        <div className="fixed top-0 z-1 w-full bg-zinc-950 font-mono text-3xl flex flex-row justify-center py-2">
+          <nav className="gap-10">
+            <Link href="/">piss</Link>
+            <Link href="/music">yippee</Link>
+          </nav>
         </div>
         {children}
       </body>
