@@ -11,7 +11,7 @@ export default function Home() {
             alt="incredible self portrait"
             width={1600}
             height={1600}
-            className="aspect-square"
+            className="aspect-square animate-[spin_10s_linear_infinite]"
           />
         </div>
         {/* Text */}
