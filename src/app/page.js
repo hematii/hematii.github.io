@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col font-mono lg:flex-row">
+    <div className="w-full flex flex-col font-mono lg:flex-row flex-wrap">
       <div className="flex flex-col w-full lg:w-3/5 h-screen items-center p-2 place-content-evenly bg-zinc-900">
         {/* Image */}
         <div className="flex w-4/5 lg:w-2/5">
@@ -28,6 +28,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      {/* Audio */}
       <div className="flex flex-col w-full lg:w-2/5 h-screen bg-indigo-300 text-zinc-950 items-center place-content-center gap-10">
         <p className="w-2/3 text-l lg:text-2xl items-center">
           Check out some of my unreleased music! I wrote, sang, and played
@@ -38,6 +39,7 @@ export default function Home() {
           Your browser does not support the audio element.
         </audio>
       </div>
+      <div className="h-screen w-full bg-indigo-900"></div>
     </div>
   );
 }
