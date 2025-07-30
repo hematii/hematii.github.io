@@ -8,6 +8,7 @@ export default function music() {
         <p>With You</p>
         <audio controls>
           <source src="/site-wy.wav" type="audio/wav" />
+          Your browser does not support the audio element.
         </audio>
       </div>
     </div>

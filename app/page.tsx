@@ -29,15 +29,16 @@ export default function Home() {
         </div>
       </div>
       {/* Audio */}
-      <div className="flex flex-col w-full lg:w-1/2 h-screen bg-indigo-300 text-zinc-950 items-center place-content-center gap-10">
-        <p className="w-2/3 text-l lg:text-2xl items-center">
+      <div className="flex flex-col w-full lg:w-1/2 h-screen bg-indigo-300 text-zinc-950 items-center place-content-center gap-10 text-l lg:text-2xl">
+        <p className="w-2/3 items-center">
           Check out some of my unreleased music! I wrote, sang, and played
           everything!
         </p>
-        <audio controls className="w-2/3 max-w-md mx-2">
-          <source src="/site-wy.wav" type="audio/wav" />
-          Your browser does not support the audio element.
-        </audio>
+        <a href="/music">
+          <button className="bg-indigo-400 hover:bg-indigo-500 active:bg-indigo-500 p-4 rounded-xl cursor-pointer">
+            OKAY HEHE
+          </button>
+        </a>
       </div>
     </div>
   );
