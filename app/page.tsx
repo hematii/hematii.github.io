@@ -31,8 +31,7 @@ export default function Home() {
       {/* Audio */}
       <div className="flex flex-col w-full lg:w-1/2 h-screen bg-indigo-300 text-zinc-950 items-center place-content-center gap-10 text-l lg:text-2xl">
         <p className="w-2/3 items-center">
-          Check out some of my unreleased music! I wrote, sang, and played
-          everything!
+          Check out some of my unreleased music!
         </p>
         <a href="/music">
           <button className="bg-indigo-400 hover:bg-indigo-500 active:bg-indigo-500 p-4 rounded-xl cursor-pointer">

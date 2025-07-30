@@ -5,7 +5,7 @@ export default function music() {
         <p>Here's some of the songs I've written!</p>
       </div>
       <div className="flex flex-col items-center gap-2 m-4">
-        <p>With You</p>
+        <p>With You (snippet)</p>
         <audio controls>
           <source src="/site-wy.wav" type="audio/wav" />
           Your browser does not support the audio element.
