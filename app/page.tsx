@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         {/* Text */}
         <div className="mx-2 antialiased flex flex-col justify-items-evenly gap-2">
-          <h1 className="text-4xl lg:text-6xl font-semibold mx-6 bg-indigo-500 p-2">
+          <h1 className="text-4xl lg:text-6xl font-semibold mx-4 bg-indigo-500 p-2">
             Hello!
           </h1>
           <p className="mx-4 p-2 text-l lg:text-2xl antialiased">
