@@ -5,7 +5,7 @@ export default function Home() {
     <div className="w-full flex flex-col font-mono lg:flex-row flex-wrap">
       <div className="flex flex-col w-full lg:w-1/2 h-screen items-center p-2 place-content-evenly bg-zinc-950">
         {/* Image */}
-        <div className="flex w-4/5 lg:w-2/5">
+        <div className="flex w-3/5 lg:w-2/5">
           <Image
             src="/bigjimage.png"
             alt="incredible self portrait"
@@ -23,14 +23,14 @@ export default function Home() {
             Welcome to my personal site! My name is Hemati (pictured above). I'm
             a college graduate with a bachelor's in computer science, and I'm
             currently on the job hunt. When I'm not worrying about employment, I
-            write music! Some of my other hobbies include mechanical keyboards,
-            playing volleyball, and snowboarding.
+            write music! Some of my other interests include mechanical
+            keyboards, video games, volleyball, and snowboarding.
           </p>
         </div>
       </div>
       {/* Audio */}
       <div className="flex flex-col w-full lg:w-1/2 h-screen bg-indigo-300 text-zinc-950 items-center place-content-center gap-10 text-l lg:text-2xl">
-        <p className="w-2/3 items-center">
+        <p className="w-2/3 items-center text-center">
           Check out some of my unreleased music!
         </p>
         <a href="/music">
