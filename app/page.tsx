@@ -20,7 +20,7 @@ export default function Home() {
             Hello!
           </h1>
           <p className="mx-4 p-2 text-l lg:text-2xl antialiased">
-            Welcome to my personal site! My name is Hemati (pictured above). I'm
+            Welcome to my personal site! My name is Caleb (pictured above). I'm
             a college graduate with a bachelor's in computer science, and I'm
             currently on the job hunt. When I'm not worrying about employment, I
             write music! Some of my other interests include mechanical
