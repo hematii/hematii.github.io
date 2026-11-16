@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
+import HomeIcon from "@mui/icons-material/Home";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,12 +40,16 @@ export default function RootLayout({
             elevation={0}
           >
             <Toolbar>
-              <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="menu"
-              ></IconButton>
+              <a href="/">
+                <IconButton
+                  size="large"
+                  edge="start"
+                  color="inherit"
+                  aria-label="home"
+                >
+                  <HomeIcon />
+                </IconButton>
+              </a>
             </Toolbar>
           </AppBar>
         </Box>
