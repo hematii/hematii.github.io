@@ -45,9 +45,7 @@ export default function RootLayout({
                 edge="start"
                 color="inherit"
                 aria-label="menu"
-              >
-                <MenuIcon />
-              </IconButton>
+              ></IconButton>
             </Toolbar>
           </AppBar>
         </Box>

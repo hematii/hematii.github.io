@@ -6,7 +6,7 @@ export default function Home() {
       {/* Image and Text */}
       <div className="flex flex-col w-full lg:w-1/2 h-screen items-center p-2 place-content-evenly bg-zinc-950">
         {/* Image */}
-        <div className="flex w-3/5 lg:w-2/5">
+        <div className="flex w-3/5 lg:w-2/5 bg-indigo-500 p-5 rounded-full">
           <Image
             src="/wigglypfp.gif"
             alt="incredible self portrait"
