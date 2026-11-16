@@ -2,7 +2,10 @@ export default function music() {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center font-mono text-2xl">
       <div className="border-b-2 border-[#ededed] m-4">
-        <p>Here's some of the songs I've written!</p>
+        <p>
+          Here's some of the beta versions of songs I wrote (I know there's only
+          one song here, I'm working on it lol)!
+        </p>
       </div>
       <div className="flex flex-col items-center gap-2 m-4">
         <p>With You (snippet)</p>
