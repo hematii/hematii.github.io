@@ -12,8 +12,8 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.2.0",
-    "@mui/material": "^7.2.0",
-    "next": "15.4.10",
+    "@mui/material": "^7.3.11",
+    "next": "^16.4.6",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
@@ -24,5 +24,9 @@
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "allowScripts": {
+    "@tailwindcss/oxide@4.1.11": true,
+    "sharp@0.34.5": true
   }
 }
