@@ -34,7 +34,7 @@ export default function Home() {
         <a
           href="https://open.spotify.com/artist/3YYDdxz9quHhrw3rptfpf0"
           target="_blank"
-          className="w-2/5"
+          className="w-2/3 lg:w-2/5"
         >
           <button className="bg-indigo-400 hover:bg-indigo-500 active:bg-indigo-500 py-4 lg:py-6 rounded-xl cursor-pointer w-full">
             SPOTIFY
@@ -43,7 +43,7 @@ export default function Home() {
         <a
           href="https://www.instagram.com/heyitshemati"
           target="_blank"
-          className="w-2/5"
+          className="w-2/3 lg:w-2/5"
         >
           <button className="bg-indigo-400 hover:bg-indigo-500 active:bg-indigo-500 py-4 lg:py-6 rounded-xl cursor-pointer w-full">
             INSTAGRAM
@@ -52,18 +52,18 @@ export default function Home() {
         <a
           href="https://www.tiktok.com/@heyitshemati"
           target="_blank"
-          className="w-2/5"
+          className="w-2/3 lg:w-2/5"
         >
           <button className="bg-indigo-400 hover:bg-indigo-500 active:bg-indigo-500 py-4 lg:py-6 rounded-xl cursor-pointer w-full">
             TIKTOK
           </button>
         </a>
-        <a href="/tour" className="w-2/5">
+        <a href="/tour" className="w-2/3 lg:w-2/5">
           <button className="bg-indigo-400 hover:bg-indigo-500 active:bg-indigo-500 py-4 lg:py-6 rounded-xl cursor-pointer w-full">
-            TOUR
+            PHILIPPINES TOUR
           </button>
         </a>
-        <a href="/music" className="w-2/5">
+        <a href="/music" className="w-2/3 lg:w-2/5">
           <button className="bg-indigo-400 hover:bg-indigo-500 active:bg-indigo-500 py-4 lg:py-6 rounded-xl cursor-pointer w-full">
             uhhhhh
           </button>
